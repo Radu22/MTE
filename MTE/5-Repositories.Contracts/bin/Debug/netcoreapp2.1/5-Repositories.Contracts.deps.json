@@ -1,20 +1,42 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "956d36dfd667222d846450ba922e197b7c9a8d4a"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "5-Repositories.Contracts/1.0.0": {
+        "dependencies": {
+          "1-Entity.Model": "1.0.0",
+          "StyleCop.Analyzers": "1.0.2"
+        },
         "runtime": {
           "5-Repositories.Contracts.dll": {}
+        }
+      },
+      "StyleCop.Analyzers/1.0.2": {},
+      "1-Entity.Model/1.0.0": {
+        "runtime": {
+          "1-Entity.Model.dll": {}
         }
       }
     }
   },
   "libraries": {
     "5-Repositories.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StyleCop.Analyzers/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3xD87lafnVhsSEtJKk50G7FGutvaXkFz4XrrLrxnk/DhZU42dnCGWUsvKuBv4mTS0XdIgTY88tLhxW/8Vi3Pow==",
+      "path": "stylecop.analyzers/1.0.2",
+      "hashPath": "stylecop.analyzers.1.0.2.nupkg.sha512"
+    },
+    "1-Entity.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

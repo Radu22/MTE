@@ -5,4 +5,8 @@
     <RootNamespace>_3_Persistency.Implementations</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

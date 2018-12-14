@@ -6,3 +6,7 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Debug\netcoreapp2
 C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Debug\netcoreapp2.1\5-Repositories.Contracts.AssemblyInfo.cs
 C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Debug\netcoreapp2.1\5-Repositories.Contracts.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Debug\netcoreapp2.1\5-Repositories.Contracts.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\bin\Debug\netcoreapp2.1\1-Entity.Model.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\bin\Debug\netcoreapp2.1\1-Entity.Model.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Debug\netcoreapp2.1\5-Repositories.Contracts.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Debug\netcoreapp2.1\5-Repositories.Contracts.csproj.CopyComplete

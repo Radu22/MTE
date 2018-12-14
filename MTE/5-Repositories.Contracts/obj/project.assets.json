@@ -207,6 +207,19 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "StyleCop.Analyzers/1.0.2": {
+        "type": "package"
+      },
+      "1-Entity.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/1-Entity.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/1-Entity.Model.dll": {}
+        }
       }
     }
   },
@@ -680,11 +693,34 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "StyleCop.Analyzers/1.0.2": {
+      "sha512": "3xD87lafnVhsSEtJKk50G7FGutvaXkFz4XrrLrxnk/DhZU42dnCGWUsvKuBv4mTS0XdIgTY88tLhxW/8Vi3Pow==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "stylecop.analyzers.1.0.2.nupkg.sha512",
+        "stylecop.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "1-Entity.Model/1.0.0": {
+      "type": "project",
+      "path": "../1-Entity.Model/1-Entity.Model.csproj",
+      "msbuildProject": "../1-Entity.Model/1-Entity.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.NETCore.App >= 2.1.0"
+      "1-Entity.Model >= 1.0.0",
+      "Microsoft.NETCore.App >= 2.1.0",
+      "StyleCop.Analyzers >= 1.0.2"
     ]
   },
   "packageFolders": {
@@ -716,7 +752,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -733,6 +773,12 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "StyleCop.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.2, )"
           }
         },
         "imports": [

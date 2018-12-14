@@ -5,4 +5,8 @@
     <RootNamespace>_2_Persistency.Contracts</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.0" />
+  </ItemGroup>
+
 </Project>
