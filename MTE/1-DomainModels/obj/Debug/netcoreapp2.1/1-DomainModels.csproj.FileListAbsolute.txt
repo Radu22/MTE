@@ -1,0 +1,9 @@
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\bin\Debug\netcoreapp2.1\1-DomainModels.deps.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\bin\Debug\netcoreapp2.1\1-DomainModels.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\bin\Debug\netcoreapp2.1\1-DomainModels.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.AssemblyInfo.cs
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.pdb

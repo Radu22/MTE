@@ -1,0 +1,8 @@
+C:\Users\Radu\Desktop\MTE\MTE\MTE\6-Repositories.Implementations\bin\Debug\netcoreapp2.1\6-Repositories.Implementations.deps.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\6-Repositories.Implementations\bin\Debug\netcoreapp2.1\6-Repositories.Implementations.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\6-Repositories.Implementations\bin\Debug\netcoreapp2.1\6-Repositories.Implementations.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\6-Repositories.Implementations\obj\Debug\netcoreapp2.1\6-Repositories.Implementations.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\6-Repositories.Implementations\obj\Debug\netcoreapp2.1\6-Repositories.Implementations.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\6-Repositories.Implementations\obj\Debug\netcoreapp2.1\6-Repositories.Implementations.AssemblyInfo.cs
+C:\Users\Radu\Desktop\MTE\MTE\MTE\6-Repositories.Implementations\obj\Debug\netcoreapp2.1\6-Repositories.Implementations.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\6-Repositories.Implementations\obj\Debug\netcoreapp2.1\6-Repositories.Implementations.pdb

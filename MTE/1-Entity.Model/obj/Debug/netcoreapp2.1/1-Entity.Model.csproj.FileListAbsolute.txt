@@ -1,0 +1,8 @@
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\bin\Debug\netcoreapp2.1\1-Entity.Model.deps.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\bin\Debug\netcoreapp2.1\1-Entity.Model.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\bin\Debug\netcoreapp2.1\1-Entity.Model.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.AssemblyInfo.cs
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.pdb

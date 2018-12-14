@@ -1,0 +1,8 @@
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\bin\Debug\netcoreapp2.1\5-Repositories.Contracts.deps.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\bin\Debug\netcoreapp2.1\5-Repositories.Contracts.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\bin\Debug\netcoreapp2.1\5-Repositories.Contracts.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Debug\netcoreapp2.1\5-Repositories.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Debug\netcoreapp2.1\5-Repositories.Contracts.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Debug\netcoreapp2.1\5-Repositories.Contracts.AssemblyInfo.cs
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Debug\netcoreapp2.1\5-Repositories.Contracts.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Debug\netcoreapp2.1\5-Repositories.Contracts.pdb

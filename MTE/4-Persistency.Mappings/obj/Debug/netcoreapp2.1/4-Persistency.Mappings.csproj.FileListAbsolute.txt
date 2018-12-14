@@ -1,0 +1,9 @@
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.deps.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Debug\netcoreapp2.1\4-Persistency.Mappings.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Debug\netcoreapp2.1\4-Persistency.Mappings.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Debug\netcoreapp2.1\4-Persistency.Mappings.AssemblyInfo.cs
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Debug\netcoreapp2.1\4-Persistency.Mappings.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Debug\netcoreapp2.1\4-Persistency.Mappings.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Debug\netcoreapp2.1\4-Persistency.Mappings.csprojAssemblyReference.cache
