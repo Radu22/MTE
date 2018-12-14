@@ -6,3 +6,4 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.Asse
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.AssemblyInfo.cs
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csprojAssemblyReference.cache
