@@ -5,7 +5,7 @@ Nume Echipa:
 	
 	
 Componenta echipei :
-	Ilinca-Liliana Topciu
-	Andra Chiorcea
-	Balan Dan-Stefan
-	Radu Maftei
+	Ilinca-Liliana Topciu,
+	Andra Chiorcea,
+	Balan Dan-Stefan,
+	Radu Maftei.
