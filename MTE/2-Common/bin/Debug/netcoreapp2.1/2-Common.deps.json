@@ -10,7 +10,6 @@
         "dependencies": {
           "3-Cqrs.Service": "1.0.0",
           "3-Persistency.Implementations": "1.0.0",
-          "5-Repositories.Contracts": "1.0.0",
           "6-Repositories.Implementations": "1.0.0",
           "AutoMapper": "8.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.0.0",

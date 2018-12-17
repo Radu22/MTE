@@ -1,10 +1,14 @@
 ﻿using System;
 using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using _2_Common;
+using _2_Common.Extensions;
+using _3_Persistency.Implementations;
 
 namespace MTE.Api
 {
@@ -27,31 +31,31 @@ namespace MTE.Api
             services.AddMvc();
             services.AddSingleton(Configuration);
 
-            //services.AddDatabase(Configuration.GetConnectionString("MTEDBConnectionString"));
+            services.AddDatabase(Configuration.GetConnectionString("MTEDBConnectionString"));
             var builder = new ContainerBuilder();
-            //builder.RegisterModule<CqrsAutofacModule>();
+            builder.RegisterModule<CqrsAutofacModule>();
 
-            //builder.Populate(services);
+            builder.Populate(services);
             var container = builder.Build();
 
             return container.Resolve<IServiceProvider>();
         }
 
-        //// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        //public void Configure(IApplicationBuilder app,
-        //            IHostingEnvironment env,
-        //            ILoggerFactory loggerFactory,
-        //            TripPlannerContext context)
-        //{
-        //    loggerFactory.AddConsole(Configuration.GetSection("Logging"));
-        //    loggerFactory.AddDebug();
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app,
+            IHostingEnvironment env,
+            ILoggerFactory loggerFactory,
+            MTEContext context)
+        {
+            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+            loggerFactory.AddDebug();
 
-        //    if (env.IsDevelopment())
-        //    {
-        //        app.UseDeveloperExceptionPage();
-        //    }
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
 
-        //    app.UseMvc();
-        //}
+            app.UseMvc();
+        }
     }
 }

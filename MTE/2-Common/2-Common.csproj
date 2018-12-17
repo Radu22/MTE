@@ -18,7 +18,6 @@
   <ItemGroup>
     <ProjectReference Include="..\3-Cqrs.Service\3-Cqrs.Service.csproj" />
     <ProjectReference Include="..\3-Persistency.Implementations\3-Persistency.Implementations.csproj" />
-    <ProjectReference Include="..\5-Repositories.Contracts\5-Repositories.Contracts.csproj" />
     <ProjectReference Include="..\6-Repositories.Implementations\6-Repositories.Implementations.csproj" />
   </ItemGroup>
 

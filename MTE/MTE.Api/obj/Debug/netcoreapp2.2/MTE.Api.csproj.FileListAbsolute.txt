@@ -1,0 +1,14 @@
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\MTE.Api.deps.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\MTE.Api.runtimeconfig.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\MTE.Api.runtimeconfig.dev.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\MTE.Api.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\MTE.Api.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.RazorAssemblyInfo.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.RazorAssemblyInfo.cs
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.AssemblyInfo.cs
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.pdb
