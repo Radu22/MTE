@@ -29,7 +29,7 @@
 
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\2-Common\2-Common.csproj" />
   </ItemGroup>
 
 </Project>

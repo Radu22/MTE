@@ -7,6 +7,7 @@ using _3_Cqrs.Service.CommandHandlers;
 using _3_Cqrs.Service.QueryContracts;
 using _3_Cqrs.Service.QueryHandlers;
 using _3_Persistency.Implementations;
+using _5_Repositories.Contracts;
 using _6_Repositories.Implementations;
 using static System.Reflection.IntrospectionExtensions;
 
@@ -40,8 +41,8 @@ namespace _2_Common
             builder.RegisterAssemblyTypes(typeof(BusinessLayer).GetTypeInfo().Assembly)
                 .AsClosedTypesOf(typeof(IQueryHandler<,>)).AsImplementedInterfaces();
 
-            //builder.RegisterGeneric(typeof(BaseRepository<>))
-            //   .As(typeof(IBaseRepository<>));
+            builder.RegisterGeneric(typeof(BaseRepository<>))
+               .As(typeof(IBaseRepository<>));
 
             //builder.RegisterAssemblyTypes().AssignableTo(typeof(LocationMapper));
 

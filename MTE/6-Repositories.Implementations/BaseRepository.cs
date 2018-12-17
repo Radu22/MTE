@@ -18,7 +18,7 @@ namespace _6_Repositories.Implementations
 
         public void Add(T entity)
         {
-            this.DbContext.Add(entity);
+            DbContext.Add(entity);
         }
 
         public void Delete(T entity)
@@ -28,7 +28,7 @@ namespace _6_Repositories.Implementations
 
         public T Get(Guid id)
         {
-            return this.DbContext.Find<T>(id);
+            return DbContext.Find<T>(id);
         }
 
         public IQueryable<T> Query()
@@ -38,7 +38,7 @@ namespace _6_Repositories.Implementations
 
         public void Save()
         {
-            this.DbContext.SaveChanges();
+            DbContext.SaveChanges();
         }
     }
 }
