@@ -14,3 +14,5 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.1\MTE.Api.RazorT
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.1\MTE.Api.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.1\MTE.Api.pdb
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.1\MTE.Api.csproj.CopyComplete
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.1\3-Cqrs.Service.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.1\3-Cqrs.Service.pdb

@@ -5,4 +5,15 @@
     <RootNamespace>_6_Repositories.Implementations</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\3-Persistency.Implementations\3-Persistency.Implementations.csproj" />
+    <ProjectReference Include="..\5-Repositories.Contracts\5-Repositories.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\..\..\..\..\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

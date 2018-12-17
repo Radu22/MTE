@@ -7,13 +7,15 @@
 
   <ItemGroup>
     <Folder Include="Command\" />
-    <Folder Include="CommandContracts\" />
-    <Folder Include="CommandHandlers\" />
     <Folder Include="Exceptions\" />
     <Folder Include="QueryResults\" />
-    <Folder Include="QueryHandlers\" />
-    <Folder Include="QueryContracts\" />
     <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\..\..\..\..\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
