@@ -6,14 +6,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Command\" />
     <Folder Include="QueryResults\" />
     <Folder Include="Queries\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Ensure.That" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\1-DomainModels\1-DomainModels.csproj" />
+    <ProjectReference Include="..\5-Repositories.Contracts\5-Repositories.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="Autofac">
       <HintPath>..\..\..\..\..\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\..\..\..\.nuget\packages\automapper\8.0.0\lib\netstandard2.0\AutoMapper.dll</HintPath>
     </Reference>
   </ItemGroup>
 

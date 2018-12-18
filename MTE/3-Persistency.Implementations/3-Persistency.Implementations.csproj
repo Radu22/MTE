@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\1-Entity.Model\1-Entity.Model.csproj" />
     <ProjectReference Include="..\2-Persistency.Contracts\2-Persistency.Contracts.csproj" />
     <ProjectReference Include="..\4-Persistency.Mappings\4-Persistency.Mappings.csproj" />
   </ItemGroup>

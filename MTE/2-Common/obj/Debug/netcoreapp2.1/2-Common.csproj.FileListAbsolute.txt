@@ -22,3 +22,5 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-Entity.Mode
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.pdb
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.pdb
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csproj.CopyComplete
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-DomainModels.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-DomainModels.pdb

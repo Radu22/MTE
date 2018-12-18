@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "Ensure.That/8.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Ensure.That.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ensure.That.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -207,10 +216,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "1-DomainModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/1-DomainModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/1-DomainModels.dll": {}
+        }
+      },
+      "1-Entity.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/1-Entity.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/1-Entity.Model.dll": {}
+        }
+      },
+      "5-Repositories.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "1-Entity.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/5-Repositories.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/5-Repositories.Contracts.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Ensure.That/8.1.0": {
+      "sha512": "lpuJD+M99vdC+yXEVJGpzmhbomC3nOhCNsW8LU2RMjRN/r9096Yd04LvUbUJiQtDHZuwVIAz3gfBPG8voUgipA==",
+      "type": "package",
+      "path": "ensure.that/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ensure.that.8.1.0.nupkg.sha512",
+        "ensure.that.nuspec",
+        "lib/net451/Ensure.That.dll",
+        "lib/net451/Ensure.That.xml",
+        "lib/netstandard1.1/Ensure.That.dll",
+        "lib/netstandard1.1/Ensure.That.xml",
+        "lib/netstandard2.0/Ensure.That.dll",
+        "lib/netstandard2.0/Ensure.That.xml"
+      ]
+    },
     "Microsoft.NETCore.App/2.1.0": {
       "sha512": "AvT774nTFgU8cYcGO9j1EMwuayKslxqYTurg32HGpWa2hEYNuW2+XgYVVNcZe6Ndbr84QX6fwaOZfd5n+1m2OA==",
       "type": "package",
@@ -680,10 +739,28 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "1-DomainModels/1.0.0": {
+      "type": "project",
+      "path": "../1-DomainModels/1-DomainModels.csproj",
+      "msbuildProject": "../1-DomainModels/1-DomainModels.csproj"
+    },
+    "1-Entity.Model/1.0.0": {
+      "type": "project",
+      "path": "../1-Entity.Model/1-Entity.Model.csproj",
+      "msbuildProject": "../1-Entity.Model/1-Entity.Model.csproj"
+    },
+    "5-Repositories.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../5-Repositories.Contracts/5-Repositories.Contracts.csproj",
+      "msbuildProject": "../5-Repositories.Contracts/5-Repositories.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "1-DomainModels >= 1.0.0",
+      "5-Repositories.Contracts >= 1.0.0",
+      "Ensure.That >= 8.1.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -716,7 +793,14 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-DomainModels\\1-DomainModels.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-DomainModels\\1-DomainModels.csproj"
+            },
+            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\5-Repositories.Contracts\\5-Repositories.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\5-Repositories.Contracts\\5-Repositories.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -728,6 +812,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Ensure.That": {
+            "target": "Package",
+            "version": "[8.1.0, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",

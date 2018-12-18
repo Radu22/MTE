@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="EntityMappings\" />
+    <ProjectReference Include="..\1-Entity.Model\1-Entity.Model.csproj" />
+    <ProjectReference Include="..\2-Persistency.Contracts\2-Persistency.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

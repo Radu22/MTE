@@ -41,6 +41,15 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "Ensure.That/8.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Ensure.That.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ensure.That.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -1056,6 +1065,16 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "1-DomainModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/1-DomainModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/1-DomainModels.dll": {}
+        }
+      },
       "1-Entity.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -1082,6 +1101,11 @@
       "3-Cqrs.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "1-DomainModels": "1.0.0",
+          "5-Repositories.Contracts": "1.0.0",
+          "Ensure.That": "8.1.0"
+        },
         "compile": {
           "bin/placeholder/3-Cqrs.Service.dll": {}
         },
@@ -1093,6 +1117,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "1-Entity.Model": "1.0.0",
           "2-Persistency.Contracts": "1.0.0",
           "4-Persistency.Mappings": "1.0.0",
           "Autofac": "4.8.1",
@@ -1113,6 +1138,10 @@
       "4-Persistency.Mappings/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "1-Entity.Model": "1.0.0",
+          "2-Persistency.Contracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/4-Persistency.Mappings.dll": {}
         },
@@ -1193,6 +1222,23 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
+      ]
+    },
+    "Ensure.That/8.1.0": {
+      "sha512": "lpuJD+M99vdC+yXEVJGpzmhbomC3nOhCNsW8LU2RMjRN/r9096Yd04LvUbUJiQtDHZuwVIAz3gfBPG8voUgipA==",
+      "type": "package",
+      "path": "ensure.that/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ensure.that.8.1.0.nupkg.sha512",
+        "ensure.that.nuspec",
+        "lib/net451/Ensure.That.dll",
+        "lib/net451/Ensure.That.xml",
+        "lib/netstandard1.1/Ensure.That.dll",
+        "lib/netstandard1.1/Ensure.That.xml",
+        "lib/netstandard2.0/Ensure.That.dll",
+        "lib/netstandard2.0/Ensure.That.xml"
       ]
     },
     "Microsoft.CSharp/4.5.0": {
@@ -4014,6 +4060,11 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "1-DomainModels/1.0.0": {
+      "type": "project",
+      "path": "../1-DomainModels/1-DomainModels.csproj",
+      "msbuildProject": "../1-DomainModels/1-DomainModels.csproj"
     },
     "1-Entity.Model/1.0.0": {
       "type": "project",

@@ -7,3 +7,8 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Debug\netcoreapp2.1
 C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Debug\netcoreapp2.1\4-Persistency.Mappings.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Debug\netcoreapp2.1\4-Persistency.Mappings.pdb
 C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Debug\netcoreapp2.1\4-Persistency.Mappings.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\bin\Debug\netcoreapp2.1\1-Entity.Model.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\bin\Debug\netcoreapp2.1\1-Entity.Model.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Debug\netcoreapp2.1\4-Persistency.Mappings.csproj.CopyComplete

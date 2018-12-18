@@ -1,17 +1,47 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "d75a001561a1318fae3aedfb413c448e9345ac81"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "3-Cqrs.Service/1.0.0": {
         "dependencies": {
-          "Autofac": "4.8.1.0"
+          "1-DomainModels": "1.0.0",
+          "5-Repositories.Contracts": "1.0.0",
+          "Ensure.That": "8.1.0",
+          "Autofac": "4.8.1.0",
+          "AutoMapper": "8.0.0.0"
         },
         "runtime": {
           "3-Cqrs.Service.dll": {}
+        }
+      },
+      "Ensure.That/8.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Ensure.That.dll": {
+            "assemblyVersion": "8.1.0.91",
+            "fileVersion": "8.1.0.91"
+          }
+        }
+      },
+      "1-DomainModels/1.0.0": {
+        "runtime": {
+          "1-DomainModels.dll": {}
+        }
+      },
+      "1-Entity.Model/1.0.0": {
+        "runtime": {
+          "1-Entity.Model.dll": {}
+        }
+      },
+      "5-Repositories.Contracts/1.0.0": {
+        "dependencies": {
+          "1-Entity.Model": "1.0.0"
+        },
+        "runtime": {
+          "5-Repositories.Contracts.dll": {}
         }
       },
       "Autofac/4.8.1.0": {
@@ -19,6 +49,14 @@
           "Autofac.dll": {
             "assemblyVersion": "4.8.1.0",
             "fileVersion": "4.8.1.0"
+          }
+        }
+      },
+      "AutoMapper/8.0.0.0": {
+        "runtime": {
+          "AutoMapper.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
           }
         }
       }
@@ -30,7 +68,34 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Ensure.That/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lpuJD+M99vdC+yXEVJGpzmhbomC3nOhCNsW8LU2RMjRN/r9096Yd04LvUbUJiQtDHZuwVIAz3gfBPG8voUgipA==",
+      "path": "ensure.that/8.1.0",
+      "hashPath": "ensure.that.8.1.0.nupkg.sha512"
+    },
+    "1-DomainModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "1-Entity.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "5-Repositories.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Autofac/4.8.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/8.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

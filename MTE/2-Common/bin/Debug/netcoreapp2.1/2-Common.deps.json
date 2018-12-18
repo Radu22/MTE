@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "d85184b304ae0782995b3df17d475b21d2f4238d"
+    "signature": "3d4229c31908e74fb902f37c94d9a89553a6a251"
   },
   "compilationOptions": {},
   "targets": {
@@ -52,6 +52,14 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "Ensure.That/8.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Ensure.That.dll": {
+            "assemblyVersion": "8.1.0.91",
+            "fileVersion": "8.1.0.91"
           }
         }
       },
@@ -624,6 +632,11 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "1-DomainModels/1.0.0": {
+        "runtime": {
+          "1-DomainModels.dll": {}
+        }
+      },
       "1-Entity.Model/1.0.0": {
         "runtime": {
           "1-Entity.Model.dll": {}
@@ -638,12 +651,18 @@
         }
       },
       "3-Cqrs.Service/1.0.0": {
+        "dependencies": {
+          "1-DomainModels": "1.0.0",
+          "5-Repositories.Contracts": "1.0.0",
+          "Ensure.That": "8.1.0"
+        },
         "runtime": {
           "3-Cqrs.Service.dll": {}
         }
       },
       "3-Persistency.Implementations/1.0.0": {
         "dependencies": {
+          "1-Entity.Model": "1.0.0",
           "2-Persistency.Contracts": "1.0.0",
           "4-Persistency.Mappings": "1.0.0",
           "Autofac": "4.8.1",
@@ -659,6 +678,10 @@
         }
       },
       "4-Persistency.Mappings/1.0.0": {
+        "dependencies": {
+          "1-Entity.Model": "1.0.0",
+          "2-Persistency.Contracts": "1.0.0"
+        },
         "runtime": {
           "4-Persistency.Mappings.dll": {}
         }
@@ -708,6 +731,13 @@
       "sha512": "sha512-njWYKGM3FokOlo9nj8kVLYyvJrGbLItmNA2A00lDXJnxybfP7TuZEYjQRt8ne+Cp0OF4W0ZzgdgxMioHfDEpdA==",
       "path": "automapper.extensions.microsoft.dependencyinjection/6.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512"
+    },
+    "Ensure.That/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lpuJD+M99vdC+yXEVJGpzmhbomC3nOhCNsW8LU2RMjRN/r9096Yd04LvUbUJiQtDHZuwVIAz3gfBPG8voUgipA==",
+      "path": "ensure.that/8.1.0",
+      "hashPath": "ensure.that.8.1.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -1149,6 +1179,11 @@
       "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "1-DomainModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "1-Entity.Model/1.0.0": {
       "type": "project",

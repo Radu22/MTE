@@ -14,3 +14,5 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcor
 C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.runtimeconfig.dev.json
 C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\1-Entity.Model.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\1-Entity.Model.pdb

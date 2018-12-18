@@ -29,3 +29,5 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\4-Persistency.
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\5-Repositories.Contracts.pdb
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\6-Repositories.Implementations.pdb
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.csproj.CopyComplete
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\1-DomainModels.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\1-DomainModels.pdb

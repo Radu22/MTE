@@ -1030,6 +1030,16 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "1-Entity.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/1-Entity.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/1-Entity.Model.dll": {}
+        }
+      },
       "2-Persistency.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -1046,6 +1056,10 @@
       "4-Persistency.Mappings/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "1-Entity.Model": "1.0.0",
+          "2-Persistency.Contracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/4-Persistency.Mappings.dll": {}
         },
@@ -3875,6 +3889,11 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "1-Entity.Model/1.0.0": {
+      "type": "project",
+      "path": "../1-Entity.Model/1-Entity.Model.csproj",
+      "msbuildProject": "../1-Entity.Model/1-Entity.Model.csproj"
+    },
     "2-Persistency.Contracts/1.0.0": {
       "type": "project",
       "path": "../2-Persistency.Contracts/2-Persistency.Contracts.csproj",
@@ -3888,6 +3907,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "1-Entity.Model >= 1.0.0",
       "2-Persistency.Contracts >= 1.0.0",
       "4-Persistency.Mappings >= 1.0.0",
       "Autofac >= 4.8.1",
@@ -3931,6 +3951,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj"
+            },
             "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\2-Persistency.Contracts\\2-Persistency.Contracts.csproj": {
               "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\2-Persistency.Contracts\\2-Persistency.Contracts.csproj"
             },

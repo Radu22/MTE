@@ -1054,6 +1054,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "1-Entity.Model": "1.0.0",
           "2-Persistency.Contracts": "1.0.0",
           "4-Persistency.Mappings": "1.0.0",
           "Autofac": "4.8.1",
@@ -1074,6 +1075,10 @@
       "4-Persistency.Mappings/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "1-Entity.Model": "1.0.0",
+          "2-Persistency.Contracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/4-Persistency.Mappings.dll": {}
         },
