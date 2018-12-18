@@ -6,11 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="QueryResults\" />
-    <Folder Include="Queries\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Ensure.That" Version="8.1.0" />
   </ItemGroup>
 
