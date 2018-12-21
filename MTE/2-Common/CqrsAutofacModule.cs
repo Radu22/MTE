@@ -44,8 +44,6 @@ namespace _2_Common
             builder.RegisterGeneric(typeof(BaseRepository<>))
                .As(typeof(IBaseRepository<>));
 
-            //builder.RegisterAssemblyTypes().AssignableTo(typeof(LocationMapper));
-
             builder.Register(c => new MapperConfiguration(cfg =>
             {
                 foreach (var profile in c.Resolve<IEnumerable<Profile>>())
@@ -55,9 +53,6 @@ namespace _2_Common
             })).AsSelf().SingleInstance();
 
             builder.Register(c => c.Resolve<MapperConfiguration>().CreateMapper(c.Resolve)).As<IMapper>().InstancePerLifetimeScope();
-
-            //builder.RegisterType<UserService>()
-            //    .As<IUserService>();
 
         }
     }

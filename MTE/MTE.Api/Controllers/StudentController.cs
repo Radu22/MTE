@@ -19,13 +19,14 @@ namespace MTE.Api.Controllers
         }
 
         [HttpPost]
+        [ProducesResponseType(201)]
         public IActionResult AddStudent([FromBody] StudentDto student)
         {
             EnsureArg.IsNotNull(student);
 
             var command = new AddStudentCommand(student);
             CommandDispatcher.Execute(command);
-            return NoContent();
+            return Created("/api/students", command);
         }
 
         [HttpGet("{id_student}")]
