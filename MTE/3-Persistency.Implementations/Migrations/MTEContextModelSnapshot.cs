@@ -19,31 +19,13 @@ namespace _3_Persistency.Implementations.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("_1_Entity.Model.Exam", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<DateTime>("StartDate");
-
-                    b.Property<string>("Subject");
-
-                    b.Property<double>("Time");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Exam");
-                });
-
             modelBuilder.Entity("_1_Entity.Model.Student", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Email");
-
-                    b.Property<Guid>("ExamId");
-
+                    
                     b.Property<string>("FirstName");
 
                     b.Property<bool>("IsPresent");
@@ -55,14 +37,6 @@ namespace _3_Persistency.Implementations.Migrations
                     b.HasIndex("ExamId");
 
                     b.ToTable("Students");
-                });
-
-            modelBuilder.Entity("_1_Entity.Model.Student", b =>
-                {
-                    b.HasOne("_1_Entity.Model.Exam", "Exam")
-                        .WithMany("Students")
-                        .HasForeignKey("ExamId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

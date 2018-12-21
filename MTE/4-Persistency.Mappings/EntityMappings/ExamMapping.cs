@@ -8,12 +8,12 @@ namespace _4_Persistency.Mappings.EntityMappings
     {
         public void Map(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Exam>()
-                .HasKey(e => e.Id);
+            //modelBuilder.Entity<Exam>()
+            //    .HasKey(e => e.Id);
 
-            modelBuilder.Entity<Exam>()
-                .HasMany(s => s.Students)
-                .WithOne(e => e.Exam);
+            //modelBuilder.Entity<Exam>()
+            //    .HasMany(s => s.Students)
+            //    .WithOne(e => e.Exam);
         }
     }
 }

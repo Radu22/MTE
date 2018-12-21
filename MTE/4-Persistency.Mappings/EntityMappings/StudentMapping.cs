@@ -11,10 +11,10 @@ namespace _4_Persistency.Mappings.EntityMappings
             modelBuilder.Entity<Student>()
                 .HasKey(s => s.Id);
 
-            modelBuilder.Entity<Student>()
-                .HasOne(e => e.Exam)
-                .WithMany(s => s.Students)
-                .HasForeignKey(s => s.ExamId);
+            //modelBuilder.Entity<Student>()
+            //    .HasOne(e => e.Exam)
+            //    .WithMany(s => s.Students)
+            //    .HasForeignKey(s => s.ExamId);
         }
     }
 }
