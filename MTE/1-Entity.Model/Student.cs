@@ -16,6 +16,7 @@ namespace _1_Entity.Model
         public Guid ExamId { get; set; }
 
         public List<Grade> Grades { get; set; }
+
         public bool isPresent { get; set; }
     }
 }

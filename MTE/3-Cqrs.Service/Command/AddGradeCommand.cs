@@ -6,14 +6,17 @@ namespace _3_Cqrs.Service.Command
 {
     public class AddGradeCommand : ICommand
     {
-        public AddGradeCommand(GradeDto grade, Guid studentId)
+        public AddGradeCommand(GradeDto grade, Guid studentId, Guid professorId)
         {
             Grade = grade;
             StudentId = studentId;
+            ProfessorId = professorId;
         }
 
         public GradeDto Grade { get; set; }
 
         public Guid StudentId { get; set; }
+
+        public Guid ProfessorId { get; set; }
     }
 }

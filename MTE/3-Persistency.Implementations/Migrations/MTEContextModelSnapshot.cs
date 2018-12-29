@@ -57,6 +57,20 @@ namespace _3_Persistency.Implementations.Migrations
                     b.ToTable("Grade");
                 });
 
+            modelBuilder.Entity("_1_Entity.Model.Professor", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Firstname");
+
+                    b.Property<string>("Subject");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Professors");
+                });
+
             modelBuilder.Entity("_1_Entity.Model.Student", b =>
                 {
                     b.Property<Guid>("Id")

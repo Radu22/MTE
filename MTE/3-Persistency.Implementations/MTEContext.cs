@@ -15,6 +15,8 @@ namespace _3_Persistency.Implementations
 
         public DbSet<Grade> Grade { get; set; }
 
+        public DbSet<Professor> Professors { get; set; }
+
         public MTEContext(IEnumerable<IEntityMapping> entityMappingCollection, DbContextOptions dbContextOptions)
             : base(dbContextOptions)
         {

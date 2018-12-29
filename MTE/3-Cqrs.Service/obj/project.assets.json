@@ -400,7 +400,7 @@
   },
   "libraries": {
     "Autofac/4.8.1": {
-      "sha512": "GYRLxd2wCzhvee2u1vs3AbUbF4CHDWfD7BCNjD3Vxb4wxQz3HC8bPm9Sj9uOT0gE8a6PC2fx1zufmhLgxK+cZg==",
+      "sha512": "aIT9rupCOdab5RMfxvWTBmOxGU77tLqmvSF4V89SzV6oQcJrtuKw/Xp55xy9EijSktbMka55SbroAPOyT+lziw==",
       "type": "package",
       "path": "autofac/4.8.1",
       "files": [
@@ -415,7 +415,7 @@
       ]
     },
     "AutoMapper/8.0.0": {
-      "sha512": "kcbje0Y71XkvzPn8k6OROZGOn2SKaWimon3Bu1WUTVoV5GTJVym+k+zQuKApyyFVRfk7bisumj/qUX4xIIXS+Q==",
+      "sha512": "px8ZMtIq84dxciB29V+ZYOtsRLZP4JlflDDMW13LyeRdwsnIInzlcSHSxpWmVD6U3bbOl2FeLlgomnVtm0jvXw==",
       "type": "package",
       "path": "automapper/8.0.0",
       "files": [
@@ -432,7 +432,7 @@
       ]
     },
     "Ensure.That/8.1.0": {
-      "sha512": "Ke3Pbg2W7VxcjqLTtA4BQTU0gOQLCqtI/tAL3PEKQ7yDy1yx9MgN1v9/Siw3g/lYtb4EGvcd3ckgL9nvdy78Dg==",
+      "sha512": "lpuJD+M99vdC+yXEVJGpzmhbomC3nOhCNsW8LU2RMjRN/r9096Yd04LvUbUJiQtDHZuwVIAz3gfBPG8voUgipA==",
       "type": "package",
       "path": "ensure.that/8.1.0",
       "files": [
@@ -1591,23 +1591,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dan\\.nuget\\packages\\": {},
+    "C:\\Users\\Radu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\3-Cqrs.Service\\3-Cqrs.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\3-Cqrs.Service\\3-Cqrs.Service.csproj",
       "projectName": "3-Cqrs.Service",
-      "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\3-Cqrs.Service\\3-Cqrs.Service.csproj",
-      "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
-      "outputPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\3-Cqrs.Service\\obj\\",
+      "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\3-Cqrs.Service\\3-Cqrs.Service.csproj",
+      "packagesPath": "C:\\Users\\Radu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\3-Cqrs.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1620,11 +1620,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\1-DomainModels\\1-DomainModels.csproj": {
-              "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\1-DomainModels\\1-DomainModels.csproj"
+            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-DomainModels\\1-DomainModels.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-DomainModels\\1-DomainModels.csproj"
             },
-            "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\5-Repositories.Contracts\\5-Repositories.Contracts.csproj": {
-              "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\5-Repositories.Contracts\\5-Repositories.Contracts.csproj"
+            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\5-Repositories.Contracts\\5-Repositories.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\5-Repositories.Contracts\\5-Repositories.Contracts.csproj"
             }
           }
         }

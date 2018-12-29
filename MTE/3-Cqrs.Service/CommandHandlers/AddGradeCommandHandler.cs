@@ -12,20 +12,21 @@ namespace _3_Cqrs.Service.CommandHandlers
     public class AddGradeCommandHandler : ICommandHandler<AddGradeCommand>
     {
         private readonly IBaseRepository<Grade> gradeRepository;
+        private readonly IBaseRepository<Professor> professorRepository;
+        private readonly IBaseRepository<Exam> examRepository;
         private readonly IBaseRepository<Student> studentRepository;
-        private readonly IMapper mapper;
 
-        public AddGradeCommandHandler(IMapper mapper, IBaseRepository<Grade> gradeRepository, IBaseRepository<Student> studentRepository)
+        public AddGradeCommandHandler(IBaseRepository<Grade> gradeRepository, IBaseRepository<Professor> professorRepository, IBaseRepository<Exam> examRepository, IBaseRepository<Student> studentRepository)
         {
-            this.mapper = mapper;
             this.gradeRepository = gradeRepository;
+            this.professorRepository = professorRepository;
+            this.examRepository = examRepository;
             this.studentRepository = studentRepository;
         }
 
         public void Execute(AddGradeCommand command)
         {
             EnsureArg.IsNotNull(command);
-
 
             var grade = new Grade
             {
@@ -34,10 +35,15 @@ namespace _3_Cqrs.Service.CommandHandlers
                 FinalGrade = command.Grade.FinalGrade,
                 Value = command.Grade.Value
             };
+
             var existingGrade = gradeRepository.GetAll()
                 .FirstOrDefault(g => g.StudentId == grade.StudentId && g.ExamId == grade.ExamId);
 
-            if (existingGrade != null)
+            var professor = professorRepository.Get(command.ProfessorId);
+            var exam = examRepository.Get(grade.ExamId);
+            var student = studentRepository.Get(command.StudentId);
+
+            if (existingGrade != null || professor.Subject != exam.Subject || student.isPresent == false)
             {
                 throw new GeneralBusinessException("Cannot add grade to the same student at the same exam");
             }

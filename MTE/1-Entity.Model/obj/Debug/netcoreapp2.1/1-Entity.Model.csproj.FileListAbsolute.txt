@@ -15,3 +15,4 @@ X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity
 X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.dll
 X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.pdb
 X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.csprojAssemblyReference.cache

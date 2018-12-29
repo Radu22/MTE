@@ -1,4 +1,5 @@
-﻿using EnsureThat;
+﻿using System;
+using EnsureThat;
 using Microsoft.AspNetCore.Mvc;
 using _1_DomainModels;
 using _3_Cqrs.Service.Command;
@@ -9,7 +10,7 @@ using _3_Cqrs.Service.QueryResults;
 
 namespace MTE.Api.Controllers
 {
-    [Route("api/exams")]
+    [Route("api/{professorId}/exams")]
     public class ExamController : BaseController
     {
         public ExamController(ICommandDispatcher iCommandDispatcher, IQueryDispatcher iQueryDispatcher) 
@@ -29,11 +30,11 @@ namespace MTE.Api.Controllers
 
         [HttpPost]
         [ProducesResponseType(201)]
-        public IActionResult AddExam([FromBody] ExamDto exam)
+        public IActionResult AddExam(Guid professorId, [FromBody] ExamDto exam)
         {
-            EnsureArg.IsNotNull(exam);
+            EnsureArg.IsNotEmpty(professorId);
 
-            var command = new AddExamCommand(exam);
+            var command = new AddExamCommand(professorId, exam);
             CommandDispatcher.Execute(command);
             return Created("/api/exams", command);
         }

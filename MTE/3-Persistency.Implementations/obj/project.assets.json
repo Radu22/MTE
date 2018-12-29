@@ -1071,7 +1071,7 @@
   },
   "libraries": {
     "Autofac/4.8.1": {
-      "sha512": "GYRLxd2wCzhvee2u1vs3AbUbF4CHDWfD7BCNjD3Vxb4wxQz3HC8bPm9Sj9uOT0gE8a6PC2fx1zufmhLgxK+cZg==",
+      "sha512": "aIT9rupCOdab5RMfxvWTBmOxGU77tLqmvSF4V89SzV6oQcJrtuKw/Xp55xy9EijSktbMka55SbroAPOyT+lziw==",
       "type": "package",
       "path": "autofac/4.8.1",
       "files": [
@@ -2008,7 +2008,7 @@
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.5.0": {
-      "sha512": "X4hp5h5M2plTWZnUd79d0x4actSMj9L3Hv6e1Lu+oGi35XSaXg21ha4Rqmt2KrIesfUwMfpET8QhMkS1eiWqRQ==",
+      "sha512": "AJfX7owAAkMjWQYhoml5IBfXh8UyYPjktn8pK0BFGAdKgBS7HqMz1fw5vdzfZUWfhtTPDGCjgNttt46ZyEmSjg==",
       "type": "package",
       "path": "runtime.native.system.data.sqlclient.sni/4.5.0",
       "files": [
@@ -2068,7 +2068,7 @@
       ]
     },
     "StyleCop.Analyzers/1.0.2": {
-      "sha512": "SJXrFL+4YbLBlV+4Ija4/ezKApo1PfMBpeYS4vZomnUTWNxHHt0D3b+4GYc8ayA06+ZMAChYi6+nSfuFD56WMw==",
+      "sha512": "3xD87lafnVhsSEtJKk50G7FGutvaXkFz4XrrLrxnk/DhZU42dnCGWUsvKuBv4mTS0XdIgTY88tLhxW/8Vi3Pow==",
       "type": "package",
       "path": "stylecop.analyzers/1.0.2",
       "hasTools": true,
@@ -2554,7 +2554,7 @@
       ]
     },
     "System.Interactive.Async/3.2.0": {
-      "sha512": "T3nigy9yShklMyVu7I2TvlVMRy2vUn9oQeBaRy0KZcOptyy+rUbekYaXxoa3s0h2tWT3UVtzrGkQC89CBbCtlg==",
+      "sha512": "C07p0dAA5lGqYUPiPCK3paR709gqS4aMDDsje0v0pvffwzLaxmsn5YQTfZbyNG5qrudPx+BCxTqISnncQ3wIoQ==",
       "type": "package",
       "path": "system.interactive.async/3.2.0",
       "files": [
@@ -3448,7 +3448,7 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "sha512": "qUJMNWhbm9oZ3XaMFiEMiYmRPszbnXIkRIi7+4b2Md2xZ6JUOepf0/kY3S85qistRohl9OdMe4PsO+RdG2kTIQ==",
+      "sha512": "x/3d5xb+mc9e4I2GOOT+HPRWMZLbYjNN/kYKsb0fyUKcWizn/t1CIrGRLIBhv7H0ptYEt+WTTztdPmwSUMyKig==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "files": [
@@ -3553,7 +3553,7 @@
       ]
     },
     "System.Security.AccessControl/4.5.0": {
-      "sha512": "6RQtcT+TyDgLUFsAnmmdfRRGdLYKxSZGkSPOd052tvYFxOTMaQb6ANlwhGqZtNO52PosaCoXu7uatFneujAxmA==",
+      "sha512": "aVjTe36YkO8FzfNhMLoPEzv3gF9rphoW9ngFhG/MH4zzEPLx07sNrgCLwMP4Wx2leI6qarMrGv21OwQXYUKLmw==",
       "type": "package",
       "path": "system.security.accesscontrol/4.5.0",
       "files": [
@@ -3922,23 +3922,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dan\\.nuget\\packages\\": {},
+    "C:\\Users\\Radu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\3-Persistency.Implementations\\3-Persistency.Implementations.csproj",
+      "projectUniqueName": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\3-Persistency.Implementations\\3-Persistency.Implementations.csproj",
       "projectName": "3-Persistency.Implementations",
-      "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\3-Persistency.Implementations\\3-Persistency.Implementations.csproj",
-      "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
-      "outputPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\3-Persistency.Implementations\\obj\\",
+      "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\3-Persistency.Implementations\\3-Persistency.Implementations.csproj",
+      "packagesPath": "C:\\Users\\Radu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\3-Persistency.Implementations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3951,14 +3951,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj": {
-              "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj"
+            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj"
             },
-            "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\2-Persistency.Contracts\\2-Persistency.Contracts.csproj": {
-              "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\2-Persistency.Contracts\\2-Persistency.Contracts.csproj"
+            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\2-Persistency.Contracts\\2-Persistency.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\2-Persistency.Contracts\\2-Persistency.Contracts.csproj"
             },
-            "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\4-Persistency.Mappings\\4-Persistency.Mappings.csproj": {
-              "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\4-Persistency.Mappings\\4-Persistency.Mappings.csproj"
+            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\4-Persistency.Mappings\\4-Persistency.Mappings.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\4-Persistency.Mappings\\4-Persistency.Mappings.csproj"
             }
           }
         }
