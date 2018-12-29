@@ -7,7 +7,7 @@ namespace _5_Repositories.Contracts
     public interface IBaseRepository<T>
         where T : BaseEntity
     {
-        IQueryable<T> Query();
+        IQueryable<T> GetAll();
 
         T Get(Guid id);
 

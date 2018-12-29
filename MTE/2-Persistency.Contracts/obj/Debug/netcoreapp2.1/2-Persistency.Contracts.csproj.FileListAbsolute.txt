@@ -6,4 +6,3 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\obj\Debug\netcoreapp2.
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\obj\Debug\netcoreapp2.1\2-Persistency.Contracts.AssemblyInfo.cs
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\obj\Debug\netcoreapp2.1\2-Persistency.Contracts.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\obj\Debug\netcoreapp2.1\2-Persistency.Contracts.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\obj\Debug\netcoreapp2.1\2-Persistency.Contracts.csprojAssemblyReference.cache

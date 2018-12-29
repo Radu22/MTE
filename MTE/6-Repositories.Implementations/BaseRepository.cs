@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using _1_Entity.Model;
 using _3_Persistency.Implementations;
 using _5_Repositories.Contracts;
@@ -9,9 +10,12 @@ namespace _6_Repositories.Implementations
     public class BaseRepository<T> : IBaseRepository<T>
         where T : BaseEntity
     {
+
+        protected DbSet<T> dbSet;
         public BaseRepository(MTEContext dbContext)
         {
             DbContext = dbContext;
+            dbSet = DbContext.Set<T>();
         }
 
         public MTEContext DbContext { get; }
@@ -31,9 +35,9 @@ namespace _6_Repositories.Implementations
             return DbContext.Find<T>(id);
         }
 
-        public IQueryable<T> Query()
+        public IQueryable<T> GetAll()
         {
-            throw new NotImplementedException();
+            return dbSet;
         }
 
         public void Save()
