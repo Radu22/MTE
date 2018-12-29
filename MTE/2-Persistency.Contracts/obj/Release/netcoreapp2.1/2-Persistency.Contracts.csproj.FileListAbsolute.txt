@@ -1,0 +1,9 @@
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\bin\Release\netcoreapp2.1\2-Persistency.Contracts.deps.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\bin\Release\netcoreapp2.1\2-Persistency.Contracts.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\bin\Release\netcoreapp2.1\2-Persistency.Contracts.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\obj\Release\netcoreapp2.1\2-Persistency.Contracts.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\obj\Release\netcoreapp2.1\2-Persistency.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\obj\Release\netcoreapp2.1\2-Persistency.Contracts.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\obj\Release\netcoreapp2.1\2-Persistency.Contracts.AssemblyInfo.cs
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\obj\Release\netcoreapp2.1\2-Persistency.Contracts.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Persistency.Contracts\obj\Release\netcoreapp2.1\2-Persistency.Contracts.pdb
