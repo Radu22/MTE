@@ -10,3 +10,15 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Release\netcoreap
 C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Release\netcoreapp2.1\5-Repositories.Contracts.csproj.CopyComplete
 C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Release\netcoreapp2.1\5-Repositories.Contracts.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\5-Repositories.Contracts\obj\Release\netcoreapp2.1\5-Repositories.Contracts.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\bin\Release\netcoreapp2.1\5-Repositories.Contracts.deps.json
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\bin\Release\netcoreapp2.1\5-Repositories.Contracts.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\bin\Release\netcoreapp2.1\5-Repositories.Contracts.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\bin\Release\netcoreapp2.1\1-Entity.Model.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\bin\Release\netcoreapp2.1\1-Entity.Model.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\obj\Release\netcoreapp2.1\5-Repositories.Contracts.csprojAssemblyReference.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\obj\Release\netcoreapp2.1\5-Repositories.Contracts.csproj.CoreCompileInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\obj\Release\netcoreapp2.1\5-Repositories.Contracts.AssemblyInfoInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\obj\Release\netcoreapp2.1\5-Repositories.Contracts.AssemblyInfo.cs
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\obj\Release\netcoreapp2.1\5-Repositories.Contracts.csproj.CopyComplete
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\obj\Release\netcoreapp2.1\5-Repositories.Contracts.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\5-Repositories.Contracts\obj\Release\netcoreapp2.1\5-Repositories.Contracts.pdb

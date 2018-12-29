@@ -695,7 +695,7 @@
       ]
     },
     "StyleCop.Analyzers/1.0.2": {
-      "sha512": "3xD87lafnVhsSEtJKk50G7FGutvaXkFz4XrrLrxnk/DhZU42dnCGWUsvKuBv4mTS0XdIgTY88tLhxW/8Vi3Pow==",
+      "sha512": "SJXrFL+4YbLBlV+4Ija4/ezKApo1PfMBpeYS4vZomnUTWNxHHt0D3b+4GYc8ayA06+ZMAChYi6+nSfuFD56WMw==",
       "type": "package",
       "path": "stylecop.analyzers/1.0.2",
       "hasTools": true,
@@ -724,23 +724,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Radu\\.nuget\\packages\\": {},
+    "C:\\Users\\Dan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\5-Repositories.Contracts\\5-Repositories.Contracts.csproj",
+      "projectUniqueName": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\5-Repositories.Contracts\\5-Repositories.Contracts.csproj",
       "projectName": "5-Repositories.Contracts",
-      "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\5-Repositories.Contracts\\5-Repositories.Contracts.csproj",
-      "packagesPath": "C:\\Users\\Radu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\5-Repositories.Contracts\\obj\\",
+      "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\5-Repositories.Contracts\\5-Repositories.Contracts.csproj",
+      "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
+      "outputPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\5-Repositories.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -753,8 +753,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj": {
-              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj"
+            "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj": {
+              "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj"
             }
           }
         }

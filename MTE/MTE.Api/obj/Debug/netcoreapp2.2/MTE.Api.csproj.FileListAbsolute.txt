@@ -31,3 +31,36 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.RazorT
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.csproj.CopyComplete
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\MTE.Api.deps.json
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\MTE.Api.runtimeconfig.json
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\MTE.Api.runtimeconfig.dev.json
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\MTE.Api.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\MTE.Api.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\1-DomainModels.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\1-Entity.Model.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\2-Common.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\2-Persistency.Contracts.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\3-Cqrs.Service.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\3-Persistency.Implementations.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\4-Persistency.Mappings.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\5-Repositories.Contracts.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\6-Repositories.Implementations.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\1-DomainModels.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\2-Common.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\1-Entity.Model.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\2-Persistency.Contracts.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\3-Cqrs.Service.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\3-Persistency.Implementations.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\4-Persistency.Mappings.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\5-Repositories.Contracts.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\bin\Debug\netcoreapp2.2\6-Repositories.Implementations.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.csprojAssemblyReference.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.csproj.CoreCompileInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.RazorAssemblyInfo.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.RazorAssemblyInfo.cs
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.AssemblyInfoInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.AssemblyInfo.cs
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.RazorTargetAssemblyInfo.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.csproj.CopyComplete
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Api\obj\Debug\netcoreapp2.2\MTE.Api.pdb

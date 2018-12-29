@@ -12,3 +12,17 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.RazorT
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.pdb
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.csprojAssemblyReference.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\bin\Debug\netcoreapp2.1\MTE.Web.deps.json
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\bin\Debug\netcoreapp2.1\MTE.Web.runtimeconfig.json
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\bin\Debug\netcoreapp2.1\MTE.Web.runtimeconfig.dev.json
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\bin\Debug\netcoreapp2.1\MTE.Web.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\bin\Debug\netcoreapp2.1\MTE.Web.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.csproj.CoreCompileInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.RazorAssemblyInfo.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.RazorAssemblyInfo.cs
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.AssemblyInfoInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.AssemblyInfo.cs
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.RazorTargetAssemblyInfo.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.csprojAssemblyReference.cache

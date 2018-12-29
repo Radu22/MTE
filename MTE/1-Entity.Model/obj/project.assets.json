@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Radu\\.nuget\\packages\\": {},
+    "C:\\Users\\Dan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj",
+      "projectUniqueName": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj",
       "projectName": "1-Entity.Model",
-      "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj",
-      "packagesPath": "C:\\Users\\Radu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\obj\\",
+      "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj",
+      "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
+      "outputPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\1-Entity.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

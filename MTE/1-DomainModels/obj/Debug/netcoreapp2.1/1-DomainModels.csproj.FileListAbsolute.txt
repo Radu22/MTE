@@ -6,3 +6,12 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-Domai
 C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.AssemblyInfo.cs
 C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\bin\Debug\netcoreapp2.1\1-DomainModels.deps.json
+X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\bin\Debug\netcoreapp2.1\1-DomainModels.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\bin\Debug\netcoreapp2.1\1-DomainModels.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.csproj.CoreCompileInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.AssemblyInfoInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.AssemblyInfo.cs
+X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.csprojAssemblyReference.cache

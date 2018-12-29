@@ -6,3 +6,12 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entit
 C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.AssemblyInfo.cs
 C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\bin\Debug\netcoreapp2.1\1-Entity.Model.deps.json
+X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\bin\Debug\netcoreapp2.1\1-Entity.Model.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\bin\Debug\netcoreapp2.1\1-Entity.Model.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.csproj.CoreCompileInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.AssemblyInfoInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.AssemblyInfo.cs
+X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\1-Entity.Model\obj\Debug\netcoreapp2.1\1-Entity.Model.csprojAssemblyReference.cache

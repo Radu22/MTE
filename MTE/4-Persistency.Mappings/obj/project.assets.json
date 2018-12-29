@@ -1780,7 +1780,7 @@
       ]
     },
     "System.Interactive.Async/3.2.0": {
-      "sha512": "C07p0dAA5lGqYUPiPCK3paR709gqS4aMDDsje0v0pvffwzLaxmsn5YQTfZbyNG5qrudPx+BCxTqISnncQ3wIoQ==",
+      "sha512": "T3nigy9yShklMyVu7I2TvlVMRy2vUn9oQeBaRy0KZcOptyy+rUbekYaXxoa3s0h2tWT3UVtzrGkQC89CBbCtlg==",
       "type": "package",
       "path": "system.interactive.async/3.2.0",
       "files": [
@@ -2674,7 +2674,7 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "sha512": "x/3d5xb+mc9e4I2GOOT+HPRWMZLbYjNN/kYKsb0fyUKcWizn/t1CIrGRLIBhv7H0ptYEt+WTTztdPmwSUMyKig==",
+      "sha512": "qUJMNWhbm9oZ3XaMFiEMiYmRPszbnXIkRIi7+4b2Md2xZ6JUOepf0/kY3S85qistRohl9OdMe4PsO+RdG2kTIQ==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "files": [
@@ -3001,23 +3001,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Radu\\.nuget\\packages\\": {},
+    "C:\\Users\\Dan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\4-Persistency.Mappings\\4-Persistency.Mappings.csproj",
+      "projectUniqueName": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\4-Persistency.Mappings\\4-Persistency.Mappings.csproj",
       "projectName": "4-Persistency.Mappings",
-      "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\4-Persistency.Mappings\\4-Persistency.Mappings.csproj",
-      "packagesPath": "C:\\Users\\Radu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\4-Persistency.Mappings\\obj\\",
+      "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\4-Persistency.Mappings\\4-Persistency.Mappings.csproj",
+      "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
+      "outputPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\4-Persistency.Mappings\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3030,11 +3030,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj": {
-              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj"
+            "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj": {
+              "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\1-Entity.Model\\1-Entity.Model.csproj"
             },
-            "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\2-Persistency.Contracts\\2-Persistency.Contracts.csproj": {
-              "projectPath": "C:\\Users\\Radu\\Desktop\\MTE\\MTE\\MTE\\2-Persistency.Contracts\\2-Persistency.Contracts.csproj"
+            "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\2-Persistency.Contracts\\2-Persistency.Contracts.csproj": {
+              "projectPath": "X:\\Facultate\\An 3\\dotNet\\MTE\\MTE\\2-Persistency.Contracts\\2-Persistency.Contracts.csproj"
             }
           }
         }

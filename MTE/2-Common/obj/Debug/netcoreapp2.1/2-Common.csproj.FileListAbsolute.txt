@@ -24,3 +24,29 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.Asse
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csproj.CopyComplete
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.deps.json
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-DomainModels.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-Entity.Model.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Cqrs.Service.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\5-Repositories.Contracts.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\6-Repositories.Implementations.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Cqrs.Service.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\6-Repositories.Implementations.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-DomainModels.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-Entity.Model.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\5-Repositories.Contracts.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csprojAssemblyReference.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csproj.CoreCompileInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.AssemblyInfoInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.AssemblyInfo.cs
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csproj.CopyComplete
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.pdb

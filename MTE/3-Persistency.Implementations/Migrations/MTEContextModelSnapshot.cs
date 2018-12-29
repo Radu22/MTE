@@ -70,6 +70,8 @@ namespace _3_Persistency.Implementations.Migrations
 
                     b.Property<string>("LastName");
 
+                    b.Property<bool>("isPresent");
+
                     b.HasKey("Id");
 
                     b.HasIndex("ExamId");
@@ -85,7 +87,7 @@ namespace _3_Persistency.Implementations.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("_1_Entity.Model.Student", "Student")
-                        .WithMany("Grade")
+                        .WithMany("Grades")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Restrict);
                 });

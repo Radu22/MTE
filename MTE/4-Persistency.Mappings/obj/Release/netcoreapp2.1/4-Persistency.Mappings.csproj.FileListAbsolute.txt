@@ -12,3 +12,17 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Release\netcoreapp2
 C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Release\netcoreapp2.1\4-Persistency.Mappings.csproj.CopyComplete
 C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Release\netcoreapp2.1\4-Persistency.Mappings.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\4-Persistency.Mappings\obj\Release\netcoreapp2.1\4-Persistency.Mappings.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\bin\Release\netcoreapp2.1\4-Persistency.Mappings.deps.json
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\bin\Release\netcoreapp2.1\4-Persistency.Mappings.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\bin\Release\netcoreapp2.1\4-Persistency.Mappings.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\bin\Release\netcoreapp2.1\1-Entity.Model.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\bin\Release\netcoreapp2.1\2-Persistency.Contracts.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\bin\Release\netcoreapp2.1\1-Entity.Model.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\bin\Release\netcoreapp2.1\2-Persistency.Contracts.pdb
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\obj\Release\netcoreapp2.1\4-Persistency.Mappings.csprojAssemblyReference.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\obj\Release\netcoreapp2.1\4-Persistency.Mappings.csproj.CoreCompileInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\obj\Release\netcoreapp2.1\4-Persistency.Mappings.AssemblyInfoInputs.cache
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\obj\Release\netcoreapp2.1\4-Persistency.Mappings.AssemblyInfo.cs
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\obj\Release\netcoreapp2.1\4-Persistency.Mappings.csproj.CopyComplete
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\obj\Release\netcoreapp2.1\4-Persistency.Mappings.dll
+X:\Facultate\An 3\dotNet\MTE\MTE\4-Persistency.Mappings\obj\Release\netcoreapp2.1\4-Persistency.Mappings.pdb
