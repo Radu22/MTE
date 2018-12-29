@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _1_DomainModels
 {
@@ -11,5 +12,7 @@ namespace _1_DomainModels
         public DateTime StartDate { get; set; }
 
         public double Time { get; set; }
+
+        public List<StudentDto> Students { get; set; }
     }
 }

@@ -13,6 +13,8 @@ namespace _3_Persistency.Implementations
 
         public DbSet<Exam> Exams { get; set; }
 
+        public DbSet<Grade> Grade { get; set; }
+
         public MTEContext(IEnumerable<IEntityMapping> entityMappingCollection, DbContextOptions dbContextOptions)
             : base(dbContextOptions)
         {

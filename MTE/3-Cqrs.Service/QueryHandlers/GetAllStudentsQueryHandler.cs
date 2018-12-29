@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using AutoMapper;
 using _1_DomainModels;
 using _1_Entity.Model;
 using _3_Cqrs.Service.Queries;
@@ -11,23 +12,20 @@ namespace _3_Cqrs.Service.QueryHandlers
     public class GetAllStudentsQueryHandler : IQueryHandler<GetAllStudentsQuery, GetAllStudentsQueryResult>
     {
         private readonly IBaseRepository<Student> studentsRepository;
+        private readonly IMapper mapper;
 
-        public GetAllStudentsQueryHandler(IBaseRepository<Student> studentsRepository)
+        public GetAllStudentsQueryHandler(IBaseRepository<Student> studentsRepository, IMapper mapper)
         {
             this.studentsRepository = studentsRepository;
+            this.mapper = mapper;
         }
 
         public GetAllStudentsQueryResult Execute(GetAllStudentsQuery query)
         {
             var entities = studentsRepository.GetAll();
-
-            return new GetAllStudentsQueryResult(entities.Select(x => new StudentDto
-            {
-                Id = x.Id,
-                Email =  x.Email,
-                FirstName = x.FirstName,
-                LastName = x.LastName
-            }));
+            var studentDtos = new List<StudentDto>();
+            mapper.Map(studentDtos, entities);
+            return new GetAllStudentsQueryResult(studentDtos);
         }
     }
 }

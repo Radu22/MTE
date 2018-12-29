@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
+using AutoMapper;
 using _1_DomainModels;
 using _1_Entity.Model;
 using _3_Cqrs.Service.Queries;
@@ -11,23 +13,21 @@ namespace _3_Cqrs.Service.QueryHandlers
     public class GetAllExamsQueryHandler : IQueryHandler<GetAllExamsQuery, GetAllExamsQueryResult>
     {
         private readonly IBaseRepository<Exam> examsRepository;
+        private readonly IMapper mapper;
 
-        public GetAllExamsQueryHandler(IBaseRepository<Exam> examsRepository)
+        public GetAllExamsQueryHandler(IBaseRepository<Exam> examsRepository, IMapper mapper)
         {
             this.examsRepository = examsRepository;
+            this.mapper = mapper;
         }
 
         public GetAllExamsQueryResult Execute(GetAllExamsQuery query)
         {
             var entities = examsRepository.GetAll().ToList();
+            var examDtos = new List<ExamDto>();
 
-            return new GetAllExamsQueryResult(entities.Select(x => new ExamDto
-            {
-                Id = x.Id,
-                StartDate = x.StartDate,
-                Subject = x.Subject,
-                Time = x.Time
-            }));
+            mapper.Map(examDtos, entities);
+            return new GetAllExamsQueryResult(examDtos);
         }
     }
 }

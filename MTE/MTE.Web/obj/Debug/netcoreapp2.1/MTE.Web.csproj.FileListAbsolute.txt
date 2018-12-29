@@ -11,3 +11,4 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.Assemb
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.RazorTargetAssemblyInfo.cache
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.csprojAssemblyReference.cache

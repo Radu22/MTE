@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using EnsureThat;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Routing;
+using _1_DomainModels;
+using _3_Cqrs.Service.Command;
 using _3_Cqrs.Service.CommandContracts;
 using _3_Cqrs.Service.Queries;
 using _3_Cqrs.Service.QueryContracts;
@@ -27,6 +25,17 @@ namespace MTE.Api.Controllers
             var queryResult = QueryDispatcher.Execute<GetAllExamsQuery, GetAllExamsQueryResult>(query);
 
             return Ok(queryResult.Exams);
+        }
+
+        [HttpPost]
+        [ProducesResponseType(201)]
+        public IActionResult AddExam([FromBody] ExamDto exam)
+        {
+            EnsureArg.IsNotNull(exam);
+
+            var command = new AddExamCommand(exam);
+            CommandDispatcher.Execute(command);
+            return Created("/api/exams", command);
         }
 
     }

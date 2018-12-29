@@ -3,7 +3,6 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\bin\Release\netcoreapp2.1\MTE.Web.runt
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\bin\Release\netcoreapp2.1\MTE.Web.runtimeconfig.dev.json
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\bin\Release\netcoreapp2.1\MTE.Web.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\bin\Release\netcoreapp2.1\MTE.Web.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Release\netcoreapp2.1\MTE.Web.csprojAssemblyReference.cache
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Release\netcoreapp2.1\MTE.Web.csproj.CoreCompileInputs.cache
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Release\netcoreapp2.1\MTE.Web.RazorAssemblyInfo.cache
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Release\netcoreapp2.1\MTE.Web.RazorAssemblyInfo.cs
@@ -12,3 +11,4 @@ C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Release\netcoreapp2.1\MTE.Web.Asse
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Release\netcoreapp2.1\MTE.Web.RazorTargetAssemblyInfo.cache
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Release\netcoreapp2.1\MTE.Web.dll
 C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Release\netcoreapp2.1\MTE.Web.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Release\netcoreapp2.1\MTE.Web.csprojAssemblyReference.cache

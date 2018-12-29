@@ -35,6 +35,28 @@ namespace _3_Persistency.Implementations.Migrations
                     b.ToTable("Exams");
                 });
 
+            modelBuilder.Entity("_1_Entity.Model.Grade", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<Guid>("ExamId");
+
+                    b.Property<double>("FinalGrade");
+
+                    b.Property<Guid>("StudentId");
+
+                    b.Property<double>("Value");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ExamId");
+
+                    b.HasIndex("StudentId");
+
+                    b.ToTable("Grade");
+                });
+
             modelBuilder.Entity("_1_Entity.Model.Student", b =>
                 {
                     b.Property<Guid>("Id")
@@ -53,6 +75,19 @@ namespace _3_Persistency.Implementations.Migrations
                     b.HasIndex("ExamId");
 
                     b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("_1_Entity.Model.Grade", b =>
+                {
+                    b.HasOne("_1_Entity.Model.Exam", "Exam")
+                        .WithMany()
+                        .HasForeignKey("ExamId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("_1_Entity.Model.Student", "Student")
+                        .WithMany("Grade")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Restrict);
                 });
 
             modelBuilder.Entity("_1_Entity.Model.Student", b =>
