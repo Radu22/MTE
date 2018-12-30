@@ -48,5 +48,15 @@ namespace MTE.Api.Controllers
             return Ok(queryResult.Students);
         }
 
+        [HttpPatch("{id_student}")]
+        public IActionResult UpdateStudentAttendance(Guid id_student)
+        {
+            EnsureArg.IsNotEmpty(id_student);
+
+            var command = new UpdateStudentAttendanceCommand(id_student);
+            CommandDispatcher.Execute(command);
+            return NoContent();
+        }
+
     }
 }

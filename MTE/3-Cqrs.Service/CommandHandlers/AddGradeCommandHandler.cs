@@ -29,7 +29,7 @@ namespace _3_Cqrs.Service.CommandHandlers
 
             var grade = new Grade
             {
-                StudentId = command.Grade.StudentId,
+                StudentId = command.StudentId,
                 ExamId = command.Grade.ExamId,
                 ProfessorId = command.Grade.ProfessorId,
                 FinalGrade = command.Grade.FinalGrade,
@@ -40,8 +40,12 @@ namespace _3_Cqrs.Service.CommandHandlers
                 .FirstOrDefault(g => g.StudentId == grade.StudentId && g.ExamId == grade.ExamId);
 
             var professor = professorRepository.Get(command.Grade.ProfessorId);
-            var exam = examRepository.Get(grade.ExamId);
-            var student = studentRepository.Get(command.StudentId);
+
+            var exam = examRepository.GetAll()
+                .FirstOrDefault(e => e.Id == grade.ExamId && e.ProfessorId == professor.Id);
+
+            var student = studentRepository.GetAll()
+                .FirstOrDefault(s => s.Id == grade.StudentId && s.ExamId == grade.ExamId);
 
             EnsureArg.IsNotNull(professor);
             EnsureArg.IsNotNull(student);

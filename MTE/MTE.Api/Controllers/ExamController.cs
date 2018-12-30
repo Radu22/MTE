@@ -23,7 +23,6 @@ namespace MTE.Api.Controllers
             var query = new GetAllExamsQuery();
 
             var queryResult = QueryDispatcher.Execute<GetAllExamsQuery, GetAllExamsQueryResult>(query);
-
             return Ok(queryResult.Exams);
         }
 
