@@ -24,6 +24,8 @@ namespace _3_Persistency.Implementations.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<Guid>("ProfessorId");
+
                     b.Property<DateTime>("StartDate");
 
                     b.Property<string>("Subject");
@@ -31,6 +33,9 @@ namespace _3_Persistency.Implementations.Migrations
                     b.Property<double>("Time");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ProfessorId")
+                        .IsUnique();
 
                     b.ToTable("Exams");
                 });
@@ -43,6 +48,8 @@ namespace _3_Persistency.Implementations.Migrations
                     b.Property<Guid>("ExamId");
 
                     b.Property<double>("FinalGrade");
+
+                    b.Property<Guid>("ProfessorId");
 
                     b.Property<Guid>("StudentId");
 
@@ -91,6 +98,14 @@ namespace _3_Persistency.Implementations.Migrations
                     b.HasIndex("ExamId");
 
                     b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("_1_Entity.Model.Exam", b =>
+                {
+                    b.HasOne("_1_Entity.Model.Professor", "Professor")
+                        .WithOne("Exam")
+                        .HasForeignKey("_1_Entity.Model.Exam", "ProfessorId")
+                        .OnDelete(DeleteBehavior.Restrict);
                 });
 
             modelBuilder.Entity("_1_Entity.Model.Grade", b =>

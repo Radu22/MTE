@@ -15,7 +15,8 @@ namespace Unit.Tests.Specific.CommandTest.StudentCommandTest
     [TestClass]
     public class AddStudentUnitTest : BaseTest<AddStudentCommandHandler>
     {
-        private Mock<IBaseRepository<Student>> _mockRepository;
+        private Mock<IBaseRepository<Student>> _mockStudentRepository;
+        private Mock<IBaseRepository<Exam>> _mockExamRepository;
         private Mock<IMapper> _mockMapper;
 
 
@@ -32,20 +33,21 @@ namespace Unit.Tests.Specific.CommandTest.StudentCommandTest
             CreateItemToTest().Execute(new AddStudentCommand(new StudentDto()));
 
             _mockMapper.Verify(mock => mock.Map(It.IsAny<StudentDto>(), It.IsAny<Student>()), Times.Exactly(1));
-            _mockRepository.Verify(mock => mock.Add(It.IsAny<Student>()), Times.Exactly(1));
-            _mockRepository.Verify(mock => mock.Save(), Times.Exactly(1));
+            _mockStudentRepository.Verify(mock => mock.Add(It.IsAny<Student>()), Times.Exactly(1));
+            _mockStudentRepository.Verify(mock => mock.Save(), Times.Exactly(1));
         }
 
 
         protected override AddStudentCommandHandler CreateItemToTest()
         {
-            return new AddStudentCommandHandler(_mockMapper.Object, _mockRepository.Object);
+            return new AddStudentCommandHandler(_mockMapper.Object, _mockStudentRepository.Object, _mockExamRepository.Object);
         }
 
         protected override void SetupMockingForTests()
         {
             _mockMapper = new Mock<IMapper>();
-            _mockRepository = new Mock<IBaseRepository<Student>>();
+            _mockStudentRepository = new Mock<IBaseRepository<Student>>();
+            _mockExamRepository = new Mock<IBaseRepository<Exam>>();
         }
     }
 }

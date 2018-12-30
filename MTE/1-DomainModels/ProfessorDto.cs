@@ -9,5 +9,7 @@ namespace _1_DomainModels
         public string Firstname { get; set; }
 
         public string Subject { get; set; }
+
+        public ExamDto Exam { get; set; }
     }
 }

@@ -15,4 +15,3 @@ X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-Domain
 X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.dll
 X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.pdb
 X:\Facultate\An 3\dotNet\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.csprojAssemblyReference.cache
-C:\Users\Radu\Desktop\MTE\MTE\MTE\1-DomainModels\obj\Debug\netcoreapp2.1\1-DomainModels.csprojAssemblyReference.cache

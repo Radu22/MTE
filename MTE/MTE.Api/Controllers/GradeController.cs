@@ -8,7 +8,7 @@ using _3_Cqrs.Service.QueryContracts;
 
 namespace MTE.Api.Controllers
 {
-    [Route("api/students/{studentId}/{professorId}/grades")]
+    [Route("api/students/{studentId}/grades")]
     public class GradeController : BaseController
     {
         public GradeController(ICommandDispatcher iCommandDispatcher, IQueryDispatcher iQueryDispatcher) 
@@ -18,14 +18,16 @@ namespace MTE.Api.Controllers
 
         [HttpPost]
         [ProducesResponseType(201)]
-        public IActionResult AddGrade(Guid professorId, Guid studentId, [FromBody] GradeDto grade)
+        public IActionResult AddGrade(Guid studentId, [FromBody] GradeDto grade)
         {
             EnsureArg.IsNotEmpty(studentId);
-            EnsureArg.IsNotEmpty(professorId);
 
-            var command = new AddGradeCommand(grade, studentId, professorId);
+            var command = new AddGradeCommand(grade, studentId);
             CommandDispatcher.Execute(command);
-            return Created("/api/students/{studentId}/{professorId}/grades", command);
+            return Created("/api/students/{studentId}/grades", command);
         }
+
+        //[HttpPatch("grade")]
+
     }
 }

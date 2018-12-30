@@ -9,6 +9,10 @@ namespace _1_DomainModels
 
         public string Subject { get; set; }
 
+        public ProfessorDto Professor { get; set; }
+
+        public Guid ProfessorId { get; set; }
+
         public DateTime StartDate { get; set; }
 
         public double Time { get; set; }

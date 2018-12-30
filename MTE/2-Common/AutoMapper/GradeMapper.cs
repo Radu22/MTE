@@ -14,7 +14,8 @@ namespace _2_Common.AutoMapper
                 .ForMember(g => g.Student, opt => opt.MapFrom(src => src.Student))
                 .ForMember(g => g.FinalGrade, opt => opt.MapFrom(src => src.FinalGrade))
                 .ForMember(g => g.StudentId, opt => opt.MapFrom(src => src.StudentId))
-                .ForMember(g => g.Value, opt => opt.MapFrom(src => src.Value)).ReverseMap();
+                .ForMember(g => g.Value, opt => opt.MapFrom(src => src.Value))
+                .ForMember(g => g.ProfessorId, opt => opt.MapFrom(src => src.ProfessorId)).ReverseMap();
         }
     }
 }

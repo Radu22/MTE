@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using AutoMapper;
 using EnsureThat;
 using _1_Entity.Model;
 using _3_Cqrs.Service.Command;
@@ -32,6 +31,7 @@ namespace _3_Cqrs.Service.CommandHandlers
             {
                 StudentId = command.Grade.StudentId,
                 ExamId = command.Grade.ExamId,
+                ProfessorId = command.Grade.ProfessorId,
                 FinalGrade = command.Grade.FinalGrade,
                 Value = command.Grade.Value
             };
@@ -39,13 +39,27 @@ namespace _3_Cqrs.Service.CommandHandlers
             var existingGrade = gradeRepository.GetAll()
                 .FirstOrDefault(g => g.StudentId == grade.StudentId && g.ExamId == grade.ExamId);
 
-            var professor = professorRepository.Get(command.ProfessorId);
+            var professor = professorRepository.Get(command.Grade.ProfessorId);
             var exam = examRepository.Get(grade.ExamId);
             var student = studentRepository.Get(command.StudentId);
 
-            if (existingGrade != null || professor.Subject != exam.Subject || student.isPresent == false)
+            EnsureArg.IsNotNull(professor);
+            EnsureArg.IsNotNull(student);
+            EnsureArg.IsNotNull(exam);
+
+            if (existingGrade != null)
             {
-                throw new GeneralBusinessException("Cannot add grade to the same student at the same exam");
+                throw new GeneralBusinessException("Cant add a grade to the same student at the same exam");
+            }
+
+            if (professor.Subject != exam.Subject)
+            {
+                throw new GeneralBusinessException("A teacher from another subject cant add a grade");
+            }
+
+            if (student.isPresent == false)
+            {
+                throw new GeneralBusinessException("A student that was not present cant receive a grade");
             }
 
             gradeRepository.Add(grade);

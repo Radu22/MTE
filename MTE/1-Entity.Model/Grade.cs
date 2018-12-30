@@ -6,6 +6,8 @@ namespace _1_Entity.Model
     {
         public Guid StudentId { get; set; }
 
+        public Guid ProfessorId { get; set; }
+
         public Guid ExamId { get; set; }
 
         public Student Student { get; set; }

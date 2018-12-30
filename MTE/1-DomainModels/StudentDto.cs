@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _1_DomainModels
 {
@@ -15,5 +16,9 @@ namespace _1_DomainModels
         public string Email { get; set; }
 
         public ExamDto Exam { get; set; }
+
+        public List<GradeDto> Grades { get; set; }
+
+        public bool IsPresent { get; set; }
     }
 }

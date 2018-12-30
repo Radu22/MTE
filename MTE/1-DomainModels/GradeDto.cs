@@ -8,6 +8,8 @@ namespace _1_DomainModels
 
         public Guid ExamId { get; set; }
 
+        public Guid ProfessorId { get; set; }
+
         public StudentDto Student { get; set; }
 
         public ExamDto Exam { get; set; }

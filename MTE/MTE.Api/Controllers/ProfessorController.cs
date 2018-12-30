@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using EnsureThat;
+﻿using EnsureThat;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Routing;
 using _1_DomainModels;
 using _3_Cqrs.Service.Command;
 using _3_Cqrs.Service.CommandContracts;
@@ -27,11 +22,8 @@ namespace MTE.Api.Controllers
             EnsureArg.IsNotNull(professor);
 
             var command = new AddProfessorCommand(professor);
+            CommandDispatcher.Execute(command);
             return Created("/api/professors/", command);
-
         }
-
-
-
     }
 }
