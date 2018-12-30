@@ -24,7 +24,8 @@ namespace _3_Cqrs.Service.QueryHandlers
         {
             var entities = studentsRepository.GetAll();
             var studentDtos = new List<StudentDto>();
-            mapper.Map(studentDtos, entities);
+
+            mapper.Map(entities, studentDtos);
             return new GetAllStudentsQueryResult(studentDtos);
         }
     }

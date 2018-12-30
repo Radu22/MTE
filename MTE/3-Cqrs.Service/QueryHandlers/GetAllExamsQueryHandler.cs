@@ -26,7 +26,7 @@ namespace _3_Cqrs.Service.QueryHandlers
             var entities = examsRepository.GetAll().ToList();
             var examDtos = new List<ExamDto>();
 
-            mapper.Map(examDtos, entities);
+            mapper.Map(entities, examDtos);
             return new GetAllExamsQueryResult(examDtos);
         }
     }

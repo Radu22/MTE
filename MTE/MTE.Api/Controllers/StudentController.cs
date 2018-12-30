@@ -42,6 +42,7 @@ namespace MTE.Api.Controllers
         [HttpGet]
         public IActionResult GetAllStudents()
         {
+
             var query = new GetAllStudentsQuery();
 
             var queryResult = QueryDispatcher.Execute<GetAllStudentsQuery, GetAllStudentsQueryResult>(query);
