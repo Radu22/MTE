@@ -19,3 +19,5 @@ Componenta echipei :
 - Add some exams with the subject corresponding with the added professor
 - Add at least one student corresponding with the added exams
 - Add grades with the professor information 
+
+	The application is also hosted locally on IIS
