@@ -25,3 +25,4 @@ X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.RazorTa
 X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.dll
 X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.pdb
 X:\Facultate\An 3\dotNet\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\MTE.Web\obj\Debug\netcoreapp2.1\MTE.Web.csprojAssemblyReference.cache
