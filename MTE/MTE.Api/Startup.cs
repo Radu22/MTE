@@ -14,6 +14,7 @@ namespace MTE.Api
 {
     public class Startup
     {
+        private string CorsConfigName => "MTE";
 
         public Startup(IHostingEnvironment env)
         {
@@ -28,6 +29,13 @@ namespace MTE.Api
 
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(o => o.AddPolicy(this.CorsConfigName, cors =>
+            {
+                cors.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+            }));
+
             services.AddMvc();
             services.AddSingleton(Configuration);
 
@@ -55,6 +63,7 @@ namespace MTE.Api
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(this.CorsConfigName);
             app.UseMvc();
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using AutoMapper;
 using _1_DomainModels;
 using _1_Entity.Model;
@@ -22,7 +23,7 @@ namespace _3_Cqrs.Service.QueryHandlers
 
         public GetAllStudentsQueryResult Execute(GetAllStudentsQuery query)
         {
-            var entities = studentsRepository.GetAll();
+            var entities = studentsRepository.GetAll().ToList();
             var studentDtos = new List<StudentDto>();
 
             mapper.Map(entities, studentDtos);
