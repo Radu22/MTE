@@ -1,21 +1,3 @@
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.deps.json
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.runtimeconfig.json
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.runtimeconfig.dev.json
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\1-Entity.Model.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\1-Entity.Model.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.csprojAssemblyReference.cache
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.csproj.CoreCompileInputs.cache
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.AssemblyInfoInputs.cache
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.AssemblyInfo.cs
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.csproj.CopyComplete
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.pdb
 X:\Facultate\An 3\dotNet\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.deps.json
 X:\Facultate\An 3\dotNet\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.runtimeconfig.json
 X:\Facultate\An 3\dotNet\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.runtimeconfig.dev.json
@@ -34,3 +16,21 @@ X:\Facultate\An 3\dotNet\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcore
 X:\Facultate\An 3\dotNet\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.csproj.CopyComplete
 X:\Facultate\An 3\dotNet\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.dll
 X:\Facultate\An 3\dotNet\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.deps.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.runtimeconfig.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.runtimeconfig.dev.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\1-Entity.Model.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\1-Entity.Model.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.AssemblyInfo.cs
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.csproj.CopyComplete
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\3-Persistency.Implementations\obj\Debug\netcoreapp2.1\3-Persistency.Implementations.pdb

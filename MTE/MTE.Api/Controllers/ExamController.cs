@@ -1,4 +1,5 @@
 ﻿using EnsureThat;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using _1_DomainModels;
 using _3_Cqrs.Service.Command;

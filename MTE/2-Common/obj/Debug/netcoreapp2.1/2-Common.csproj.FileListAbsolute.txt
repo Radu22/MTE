@@ -1,29 +1,3 @@
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.deps.json
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-DomainModels.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-Entity.Model.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Cqrs.Service.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\5-Repositories.Contracts.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\6-Repositories.Implementations.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Cqrs.Service.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\6-Repositories.Implementations.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-DomainModels.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-Entity.Model.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\5-Repositories.Contracts.pdb
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csprojAssemblyReference.cache
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csproj.CoreCompileInputs.cache
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.AssemblyInfoInputs.cache
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.AssemblyInfo.cs
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csproj.CopyComplete
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.dll
-C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.pdb
 X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.deps.json
 X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.dll
 X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.pdb
@@ -50,3 +24,29 @@ X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.Assem
 X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csproj.CopyComplete
 X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.dll
 X:\Facultate\An 3\dotNet\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.deps.json
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Common.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-DomainModels.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-Entity.Model.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Cqrs.Service.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\5-Repositories.Contracts.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\6-Repositories.Implementations.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Cqrs.Service.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\3-Persistency.Implementations.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\6-Repositories.Implementations.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-DomainModels.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\1-Entity.Model.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\2-Persistency.Contracts.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\4-Persistency.Mappings.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\bin\Debug\netcoreapp2.1\5-Repositories.Contracts.pdb
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.AssemblyInfo.cs
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.csproj.CopyComplete
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.dll
+C:\Users\Radu\Desktop\MTE\MTE\MTE\2-Common\obj\Debug\netcoreapp2.1\2-Common.pdb
