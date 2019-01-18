@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using _2_Common;
 using _2_Common.Extensions;
 using _3_Persistency.Implementations;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace MTE.Api
 {
@@ -38,7 +39,10 @@ namespace MTE.Api
 
             services.AddMvc();
             services.AddSingleton(Configuration);
-
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "MTE API", Version = "v1" });
+            });
             services.AddDatabase(Configuration.GetConnectionString("MTEDBConnectionString"));
             var builder = new ContainerBuilder();
             builder.RegisterModule<CqrsAutofacModule>();
@@ -65,6 +69,14 @@ namespace MTE.Api
 
             app.UseCors(this.CorsConfigName);
             app.UseMvc();
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), 
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "MTE API V1");
+            });
         }
     }
 }
